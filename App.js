@@ -1,14 +1,9 @@
 import React from 'react';
-import {SafeAreaView, Text, View} from 'react-native';
+
+import Routes from './src/routes';
 
 const App = () => {
-  return (
-    <SafeAreaView>
-      <View>
-        <Text>Crypto Wallet</Text>
-      </View>
-    </SafeAreaView>
-  );
+  return <Routes />;
 };
 
 export default App;
